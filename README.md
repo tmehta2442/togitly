@@ -1,0 +1,3 @@
+This is my version of Ritly I am making for "fun" (these are all fun!). It is somewhat basic, but just testing my understanding the flow of control in a Rails app. 
+
+Lets get to it...
