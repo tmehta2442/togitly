@@ -9,8 +9,9 @@ class UrlsController < ApplicationController
 	# end
 
 	def create
-		@url = Url.create(params[:website])
-		redirect_to @url
+		hash_code = rand(10000)
+		@urls = Url.create(website: params[:id], hash_code: hash_code)
+		redirect_to @urls
 	end
 
 	def show
