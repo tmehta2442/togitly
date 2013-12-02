@@ -1,3 +1,8 @@
 <h1>Showing website</h1>
+<% @urls.each do |x| %>
 
-<%= @url %>
+	<%= x.website %>
+	<br>
+	<%= x.hash_code%>
+	<p>
+<% end %>
